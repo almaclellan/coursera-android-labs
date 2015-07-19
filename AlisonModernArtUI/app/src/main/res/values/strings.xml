@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Modern Art UI</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="more_info">More Information</string>
+    <string name="more_info_dialog">Inspired by nothing more than the workings of my mind.</string>
+    <string name="topLeft">#2E0854</string>
+
+</resources>

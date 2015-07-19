@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:id="@+id/fullLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/leftLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/topLeft"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/topLeftStart"
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
+                android:layout_marginBottom="14dp" />
+
+            <TextView
+                android:id="@+id/bottomLeft"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/bottomLeftStart"
+                android:gravity="center_horizontal"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rightLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <!-- TextView with layout weight of 1 out of 4 -->
+
+            <TextView
+                android:id="@+id/topRight"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/topRightStart"
+                android:textSize="15pt"
+                android:layout_marginBottom="14dp" />
+
+            <!-- TextView with layout weight of 1 out of 4 -->
+
+            <TextView
+                android:id="@+id/middleRight"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/middleRightStart"
+                android:textSize="15pt"
+                android:layout_marginBottom="14dp"/>
+
+            <!-- TextView with layout weight of 1 out of 4 -->
+
+            <TextView
+                android:id="@+id/bottomRight"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/bottomRightStart"
+                android:textSize="15pt"
+                android:layout_marginBottom="0dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/colorChanger"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

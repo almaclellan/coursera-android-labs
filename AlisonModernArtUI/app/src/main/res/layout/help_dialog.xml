@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:id="@+id/dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/more_info_dialog"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:padding="25dp" />
+
+    <TextView
+        android:id="@+id/dialog_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to learn more!"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:paddingBottom="25dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+    <Button
+        android:id="@+id/dialogButtonMOMA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View MOMA"
+        />
+
+    <Button
+        android:id="@+id/dialogButtonNotNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Now"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

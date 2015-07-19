@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="topLeftStart">#FF800000</color>
+    <color name="bottomLeftStart">#FF800080</color>
+    <color name="topRightStart">#FF008000</color>
+    <color name="middleRightStart">#FF550055</color>
+    <color name="bottomRightStart">#FF000080</color>
+</resources>
